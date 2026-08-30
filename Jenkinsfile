@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building new ${env.BRANCH_NAME}"
+                echo "Building... ${env.BRANCH_NAME}"
             }
         }
 
         stage('Test') {
             steps {
-                echo "Testing ${env.BRANCH_NAME}"
+                echo "Testing... ${env.BRANCH_NAME}"
             }
         }
     }
