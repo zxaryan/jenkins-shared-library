@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('branch') {
             steps {
                 echo "Hello from ${env.BRANCH_NAME}"
             }
