@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building ${env.BRANCH_NAME}"
-                echo "Testing CI Automation"
+                echo "Testing CI Automation..."
             }
         }
 
